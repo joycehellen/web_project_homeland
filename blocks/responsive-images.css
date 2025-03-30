@@ -1,0 +1,49 @@
+/* Lead image */
+.lead__image {
+  content: url("/images/image-1280.jpg");
+}
+
+/* Logo */
+.header__logo {
+  content: url("/images/logo-1280.png");
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    content: url("/images/image-768.jpg");
+  }
+
+  .header__logo {
+    content: url("/images/logo-1280.png");
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    content: url("/images/image-768.jpg");
+  }
+
+  .header__logo {
+    content: url("/images/logo-1280.png");
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .lead__image {
+    content: url("/images/image-320.jpg");
+  }
+
+  .header__logo {
+    content: url("/images/logo-1280.png");
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    content: url("/images/image-320.jpg");
+  }
+
+  .header__logo {
+    content: url("/images/Group\ 13.svg");
+  }
+}
