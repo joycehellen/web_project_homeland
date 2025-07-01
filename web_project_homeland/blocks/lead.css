@@ -20,7 +20,9 @@
   font-weight: 400;
 }
 
+/* Lead image */
 .lead__image {
+  content: url("/web_project_homeland/images/image-1280.jpg");
   width: 100%;
   max-width: 984px;
   height: auto;

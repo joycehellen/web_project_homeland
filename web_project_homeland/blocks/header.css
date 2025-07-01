@@ -11,6 +11,7 @@ header {
 }
 
 .header__logo {
+  content: url("/web_project_homeland/images/logo-1280.png");
   width: 254px;
   height: 70px;
   display: block;
