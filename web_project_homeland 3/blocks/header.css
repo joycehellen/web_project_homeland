@@ -1,0 +1,82 @@
+header {
+  padding: 34px 0 92px;
+  text-align: center;
+}
+
+.header__logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__logo {
+  content: url("/web_project_homeland/images/logo-1280.png");
+  width: 254px;
+  height: 70px;
+  display: block;
+  margin: 0 auto;
+}
+
+.header__text {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+  font-family: "Inter", sans-serif;
+}
+
+.header__title {
+  max-width: 720px;
+  margin: 0 auto 32px;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 100px;
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+}
+
+.header__title_subtitle {
+  max-width: 720px;
+  margin: 0 auto 32px;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 1.87rem;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Responsividade */
+@media screen and (max-width: 1024px) {
+  header {
+    padding: 34px 0 88px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__title {
+    max-width: 630px;
+    margin: 0 auto 28px;
+    font-size: 5rem;
+    line-height: 85px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  header {
+    padding: 20px 0 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__title {
+    max-width: 630px;
+    margin: 0 auto 28px;
+    font-size: 4rem;
+    line-height: 70px;
+  }
+}

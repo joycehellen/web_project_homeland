@@ -1,0 +1,36 @@
+.footer {
+  margin: 92px auto 24px;
+  max-width: 1184px;
+}
+
+.footer__copyright {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin: 64px auto 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin: 64px auto 24px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .footer {
+    margin: 64px auto 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    margin: 64px auto 24px;
+  }
+}

@@ -1,0 +1,53 @@
+.lead {
+  margin: 0 auto;
+  max-width: 984px;
+  text-align: center;
+}
+
+.lead__title {
+  margin: 0 auto;
+  max-width: 793px;
+  font-size: 96px;
+  line-height: 1.04;
+  font-weight: 900;
+}
+
+.lead__subtitle {
+  margin: 32px auto 64px;
+  max-width: 720px;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+/* Lead image */
+.lead__image {
+  content: url("/web_project_homeland/images/image-1280.jpg");
+  width: 100%;
+  max-width: 984px;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+
+  .lead__subtitle {
+    margin: 32px auto 36px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 16px auto 40px;
+  }
+}

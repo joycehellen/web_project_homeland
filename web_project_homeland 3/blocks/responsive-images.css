@@ -1,0 +1,39 @@
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    content: url("/web_project_homeland/images/image-768.jpg");
+  }
+
+  .header__logo {
+    content: url("/web_project_homeland/images/logo-1280.png");
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    content: url("/web_project_homeland/images/image-768.jpg");
+  }
+
+  .header__logo {
+    content: url("/web_project_homeland/images/logo-1280.png");
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .lead__image {
+    content: url("/web_project_homeland/images/image-320.jpg");
+  }
+
+  .header__logo {
+    content: url("/web_project_homeland/images/logo-1280.png");
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    content: url("/web_project_homeland/images/image-320.jpg");
+  }
+
+  .header__logo {
+    content: url("/web_project_homeland/images/Group\ 13.svg");
+  }
+}
